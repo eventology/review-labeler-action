@@ -1,17 +1,10 @@
 version: 1
-events:
-  - users: [dev1, dev2, dev3]
-    prApprove:
-      addLabel: [code review pass]
-      removeLabel: [pr ready for code review, ready for code review]
-    prDeny:
-      addLabel: [needs changes]
-      removeLabel: [pr ready for code review, ready for code review]
-
-  - users: [qa1, qa2, qa3]
-    prApprove:
-      addLabel: [qa pass]
-      removeLabel: [pr ready for qa, ready for qa]
-    prDeny:
-      addLabel: [qa fail]
-      removeLabel: [pr ready for qa, ready for qa]
+groups:
+  - users: [user1, user2]
+    approval_labels: [code review pass]
+    denial_labels: [needs changes]
+    removed_labels: [pr ready for code review, ready for code review]
+  - users: [user3, user4]
+    approval_labels: [qa pass]
+    denial_labels: [qa fail]
+    removed_labels: [pr ready for qa, ready for qa]
