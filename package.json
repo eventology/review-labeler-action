@@ -1,8 +1,8 @@
 {
-  "name": "awesome-action",
-  "version": "0.0.0-test",
+  "name": "review-labeler-action",
+  "version": "0.0.0",
   "private": true,
-  "description": "An awesome action that does a thing",
+  "description": "Automatically updates labels based on reviewers",
   "author": "eventology",
   "main": "build/index.js",
   "scripts": {

@@ -1,5 +1,5 @@
-name: "Awesome action"
-description: "An awesome action that does a thing"
+name: "Review Labeler"
+description: "Adds labels based on review approvals or requested changes"
 author: "eventology"
 inputs:
   token:
