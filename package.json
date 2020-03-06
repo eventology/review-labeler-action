@@ -1,6 +1,6 @@
 {
   "name": "review-labeler-action",
-  "version": "0.0.0",
+  "version": "0.0.0-test1",
   "private": true,
   "description": "Automatically updates labels based on reviewers",
   "author": "eventology",
