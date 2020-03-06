@@ -1,0 +1,10 @@
+name: "Awesome action"
+description: "An awesome action that does a thing"
+author: "eventology"
+inputs:
+  token:
+    description: "github token"
+    required: true
+runs:
+  using: "node12"
+  main: "dist/index.js"
