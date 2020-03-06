@@ -10,6 +10,12 @@ const repoParams = {
 }
 
 async function main() {
+  await client.pulls.createReview({
+    ...repoParams,
+    pull_number: github.context.issue.number,
+    event: "APPROVE",
+  })
+
   // core.info("Loading config")
   // const unsafeConfig = await getConfig()
 
